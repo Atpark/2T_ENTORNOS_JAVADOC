@@ -1,11 +1,13 @@
-package calculadora;
+package testing;
 
+import calculadora.Cociente;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CocienteTest {
     private final Cociente cociente = new Cociente();
+
     @Test
     void dividirReales() {
         assertEquals(2.25, cociente.dividirReales(4.5, 2.0));
